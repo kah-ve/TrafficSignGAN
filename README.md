@@ -1,13 +1,8 @@
 # TrafficSignGAN
 #### Augmenting already collected images of traffic signs using GANs to increase accuracy and generalization ability of classification models. 
 
-#### Sources: 
-
-[Chinese Traffic Sign Recognition Database](http://www.nlpr.ia.ac.cn/pal/trafficdata/recognition.html)
-
-[Training a Conditional DC-GAN on CIFAR-10](https://medium.com/@utk.is.here/training-a-conditional-dc-gan-on-cifar-10-fce88395d610)
-
-#### [Traffic Sign GAN Google Colab Notebook](https://github.com/kah-ve/TrafficSignGAN/blob/master/TrafficSign-Conv2DGAN.ipynb) 
+# My Notebook
+###[Traffic Sign GAN Google Colab Notebook](https://github.com/kah-ve/TrafficSignGAN/blob/master/TrafficSign-Conv2DGAN.ipynb) 
 
 #### Introduction
 This is an (ongoing) extension of my fall semester senior project on Generative Adversarial Networks (GANs). This time I am exploring a problem in current autonomous vehicles where data is expensive to collect and label, and even with large amounts it, there is still the risk of misclassification errors. 
@@ -36,4 +31,8 @@ Currently have some images output using a DCGAN on the whole training dataset. T
 
 Further results soon.
 
+#### Sources: 
 
+[Chinese Traffic Sign Recognition Database](http://www.nlpr.ia.ac.cn/pal/trafficdata/recognition.html)
+
+[Training a Conditional DC-GAN on CIFAR-10](https://medium.com/@utk.is.here/training-a-conditional-dc-gan-on-cifar-10-fce88395d610)
