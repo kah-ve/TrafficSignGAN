@@ -22,7 +22,7 @@ After generating the new images, you will train the second classifier on the set
 
 ![Flowchart](https://github.com/kah-ve/TrafficSignGAN/blob/master/project_flowchart.png) 
 
-Hypothesis 1: The GAN will add distortion and noise to outputted images, but the traffic sign will still be clear. This will help the model to generalize better, and even possibly predict signs even in bad conditions (weather, blur). 
+Hypothesis 1: The GAN will add distortion and noise to outputted images, but the traffic sign will still be clear. This will help the model to generalize better, and even possibly predict signs in bad conditions (weather, blur). 
 
 Hypothesis 2: The GAN will also generate never before seen unique images of the traffic sign dataset. This means that through a low cost software model you are able to increase the accuracy of your classification networks on unseen images as well.
 
