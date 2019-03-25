@@ -1,5 +1,6 @@
 # TrafficSignGAN
-#### Augmenting already collected images of traffic signs using GANs to increase accuracy and generalization ability of classification models. 
+
+#### Augmenting existing datasets of traffic signs by using a Generative Adversarial Network to create synthetic images that will increase accuracy and generalization ability of classification models.
 
 # My Notebook
 ### [Traffic Sign GAN Google Colab Notebook](https://github.com/kah-ve/TrafficSignGAN/blob/master/TrafficSign-Conv2DGAN.ipynb) 
