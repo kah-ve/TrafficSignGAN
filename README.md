@@ -12,7 +12,7 @@ In this project, I attempt to use the generator in the GAN architecture to creat
 
 A low cost and effective way to make classification models more robust and generalize better, thereby decreasing likelihood of misclassification errors, may be to train a GAN on the original images with the different traffic signs. I will explore this in two ways.
 
-## Current Approach
+## Approach
 
 The first way is to separate the traffic signs into different classes and train a Deep Convolutional GAN (DCGAN) on each one. In this setup you already know the label of the image that the generator will output since one class was used. After training, you can collect a certain number of the generator's outputs and add them to the set the new classifier will train on.
 
