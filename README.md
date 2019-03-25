@@ -30,8 +30,11 @@ Hypothesis 2: The GAN will also generate never before seen unique images of the 
 Currently have some images output using a DCGAN on the whole training dataset. This network was trained as a proof of concept, and I have no way of controlling the output currently. 
 
 Some Output:
+
 ![Image1](https://github.com/kah-ve/TrafficSignGAN/blob/master/savedImages/364.png) 
+
 ![Image2](https://github.com/kah-ve/TrafficSignGAN/blob/master/savedImages/409.png) 
+
 ![Image3](https://github.com/kah-ve/TrafficSignGAN/blob/master/savedImages/666.png)
 
 Further results soon.
