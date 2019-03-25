@@ -19,7 +19,7 @@ The second way is to use a Conditional GAN (CGAN) that will be fed images with l
 
 After generating the new images, you will train the second classifier on the set of real and generated, then check its accuracy against the model on trained on real data.
 
-![Flowchart](https://github.com/kah-ve/MarketGAN/TrafficSignGAN/blob/master/project_flowchart.png) 
+![Flowchart](https://github.com/kah-ve/TrafficSignGAN/blob/master/project_flowchart.png) 
 
 Hypothesis 1: The GAN will add distortion and noise to outputted images, but the traffic sign will still be clear. This will help the model to generalize better, and even possibly predict signs even in bad conditions (weather, blur). 
 
