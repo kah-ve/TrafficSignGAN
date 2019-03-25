@@ -33,7 +33,6 @@ Further results soon.
 
 ## Sources: 
 
-[Chinese Traffic Sign Recognition Database](http://www.nlpr.ia.ac.cn/pal/trafficdata/recognition.html) 
-*Note:  I preprocessed these images to be 32x32 pixels
+[Chinese Traffic Sign Recognition Database](http://www.nlpr.ia.ac.cn/pal/trafficdata/recognition.html) (Note:  I preprocessed these images to be 32x32 pixels)
 
 [Training a Conditional DC-GAN on CIFAR-10](https://medium.com/@utk.is.here/training-a-conditional-dc-gan-on-cifar-10-fce88395d610)
