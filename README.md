@@ -28,7 +28,7 @@ Hypothesis 2: The GAN will also generate never before seen unique images of the 
 
 ## Results
 
-Currently have some images output using a DCGAN on the whole training dataset. This network was trained as a proof of concept, and I have no way of controlling the output currently. 
+Currently have some images output using a DCGAN on the whole training dataset. This network was trained as a proof of concept, and I have no way of controlling the output as of now. 
 
 Some Output:
 
