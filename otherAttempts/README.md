@@ -5,7 +5,7 @@ These are just some attempts I also had before coming across a method that worke
 
 ![](https://github.com/kah-ve/TrafficSignGAN/blob/master/otherAttempts/10.5100.png)
 ![](https://github.com/kah-ve/TrafficSignGAN/blob/master/otherAttempts/11.8200.png)
-![](https://github.com/kah-ve/TrafficSignGAN/blob/master/otherAttempts/4.500.png)
+
 ![](https://github.com/kah-ve/TrafficSignGAN/blob/master/otherAttempts/5.10800.png)
 ![](https://github.com/kah-ve/TrafficSignGAN/blob/master/otherAttempts/6.3400.png)
 ![](https://github.com/kah-ve/TrafficSignGAN/blob/master/otherAttempts/7.12100.png)
@@ -13,3 +13,4 @@ These are just some attempts I also had before coming across a method that worke
 ![](https://github.com/kah-ve/TrafficSignGAN/blob/master/otherAttempts/9.7700.png)
 ![](https://github.com/kah-ve/TrafficSignGAN/blob/master/otherAttempts/12.1000.png)
 ![](https://github.com/kah-ve/TrafficSignGAN/blob/master/otherAttempts/3.13100.png)
+![](https://github.com/kah-ve/TrafficSignGAN/blob/master/otherAttempts/4.500.png)
