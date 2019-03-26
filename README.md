@@ -10,7 +10,7 @@ This is an (ongoing) extension of my fall semester senior project on Generative 
 
 In this project, I attempt to use the generator in the GAN architecture to create synthetic images of already collected and labeled traffic signs. The inspiration for the idea comes from the fact that GANs are capable of generating unique images and understanding the underlying distribution in data, as in the generation of new human faces with [Style GAN](https://arxiv.org/abs/1812.04948), which can be seen at work in this [interactive website](https://thispersondoesnotexist.com/). 
 
-A low cost and effective way to make classification models more robust and generalize better, thereby decreasing likelihood of misclassification errors, may be to train a GAN on the original images with the different traffic signs. I will explore this in two ways.
+A low cost and effective way to make classification models more robust and generalize better, thereby decreasing likelihood of misclassification errors, may be to train a classifier on the real images alongside the generated ones that a GAN would output. I will explore this in two ways.
 
 ## Approach
 
