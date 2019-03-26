@@ -18,7 +18,7 @@ The first way is to separate the traffic signs into different classes and train 
 
 The second way is to use a Conditional GAN (CGAN) that will be fed images with labels as well. In this case you can control the output of the generator by feeding in noise that is labeled. After training, you will again collect a certain number of the generator's outputs and add them to the set the new classifier will train on.
 
-After generating the new images, you will train the second classifier on the set of real and generated, then check its accuracy against the model that was trained on real data.
+With these outputted images from the GAN, you will train a second classifier on the set of real and generated images, then check its accuracy against the model that was trained on real data.
 
 ![Flowchart](https://github.com/kah-ve/TrafficSignGAN/blob/master/project_flowchart.png) 
 
