@@ -52,7 +52,7 @@ I trained the GAN on the classes I had the most images for as a first step. The 
 
 **Class 11: 138 images**
 
-After training the DCGAN on the separate classes, I took the trained model and outputted 500 single images each. These were generated from random noise inputted into the generator network. Those are not included here, but here are the grouped pictures of the final trained models' outputs for a few of the classes (rest in folder finalOutputsPerClass).
+After training the DCGAN on the separate classes, I took the trained model and outputted 500 single images each. These were generated from random noise inputted into the generator network. They are not included here, but I have included the final trained models' outputs for a few of the classes (rest in folder finalOutputsPerClass).
 
 ### Class 11
 ![](https://github.com/kah-ve/TrafficSignGAN/blob/master/finalOutputsPerClass/class_11.png)
