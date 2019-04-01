@@ -29,18 +29,27 @@ Hypothesis 2: The GAN will also generate never before seen unique images of the 
 
 ## Results
 
-I trained the GAN on the classes I had the most images for as a first step. The top 10 classes are as follows in my dataset.
+I trained the GAN on the classes I had the most images for as a first step. The top 10 classes (link to data can be found at bottom of readme) are as follows in my dataset.
 
-#### Class 28 with Frequency 446
-#### Class 54 with Frequency 324
-#### Class 3 with Frequency 260
-#### Class 5 with Frequency 194
-#### Class 55 with Frequency 162
-#### Class 35 with Frequency 156
-#### Class 7 with Frequency 152
-#### Class 30 with Frequency 150
-#### Class 16 with Frequency 142
-#### Class 11 with Frequency 138
+**Class 28: 446 images**
+
+**Class 54: 324**
+
+**Class 3: 260**
+
+**Class 5: 194**
+
+**Class 55: 162**
+
+**Class 35: 156**
+
+**Class 7: 152**
+
+**Class 30: 150**
+
+**Class 16: 142**
+
+**Class 11: 138**
 
 After training on the DCGAN on the separate classes, I took the trained model and outputted 500 single images generated from random noise inputted into the generator network. Those are not included here, but here are the grouped pictures of the final trained models outputs for a few of the classes (rest in folder finalOutputsPerClass).
 
