@@ -4,7 +4,7 @@
 
 ## My Notebook
 ### [Traffic Sign GAN Google Colab Notebook](https://github.com/kah-ve/TrafficSignGAN/blob/master/TrafficSign-Conv2DGAN.ipynb) 
-#### This notebook fulfills the training and image generation aspect of the project. Separate notebook that will compare accuracy rates between models soon.
+#### This notebook fulfills the training and image generation aspect of the project. Separate notebook that will compare accuracy rates between models is in the making.
 
 ## Introduction
 This is an (ongoing) extension of my fall semester senior project on Generative Adversarial Networks (GANs). This time I am exploring a problem in current autonomous vehicles where data is expensive to collect and label, and even with large amounts of it, there still exists the risk of misclassification errors. 
