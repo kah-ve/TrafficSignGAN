@@ -68,7 +68,7 @@ After training the DCGAN on the separate classes, I took the trained model and o
 
 Currently I have 500 additional images for each class. Next step is to train a model on the real datasets for each class and also the 500 generated ones, then test the model against a classifier only trained on the real dataset.
 
-Those results will be forthcoming momentarily.
+Those results will be available soon.
 
 ## Sources: 
 
