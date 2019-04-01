@@ -34,23 +34,23 @@ I trained the GAN on the classes I had the most images for as a first step. The 
 
 **Class 28: 446 images**
 
-**Class 54: 324**
+**Class 54: 324 images**
 
-**Class 3: 260**
+**Class 3: 260 images**
 
-**Class 5: 194**
+**Class 5: 194 images**
 
-**Class 55: 162**
+**Class 55: 162 images**
 
-**Class 35: 156**
+**Class 35: 156 images**
 
-**Class 7: 152**
+**Class 7: 152 images**
 
-**Class 30: 150**
+**Class 30: 150 images**
 
-**Class 16: 142**
+**Class 16: 142 images**
 
-**Class 11: 138**
+**Class 11: 138 images**
 
 After training on the DCGAN on the separate classes, I took the trained model and outputted 500 single images generated from random noise inputted into the generator network. Those are not included here, but here are the grouped pictures of the final trained models outputs for a few of the classes (rest in folder finalOutputsPerClass).
 
