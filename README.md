@@ -27,7 +27,8 @@ Hypothesis 1: The GAN will add distortion and noise to outputted images, but the
 
 Hypothesis 2: The GAN will also generate never before seen unique images of the traffic sign dataset. This means that through a low cost software model you are able to increase the accuracy of your classification networks on unseen images as well.
 
-## Results (USING FIRST APPROACH, i.e. training with a DCGAN on one class at a time)
+## Results 
+### (USING FIRST APPROACH, i.e. training with a DCGAN on one class at a time)
 
 I trained the GAN on the classes I had the most images for as a first step. The top 10 classes (link to data can be found at bottom of readme) are as follows in my dataset.
 
