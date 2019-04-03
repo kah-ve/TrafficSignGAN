@@ -61,7 +61,7 @@ After training the DCGAN on the separate classes, I took the trained model and o
 ![](https://github.com/kah-ve/TrafficSignGAN/blob/master/finalOutputsPerClass/class_16.png)
 
 ### Class 28
-![](https://github.com/kah-ve/TrafficSignGAN/blob/master/finalOutputsPerClass/class_28.png)
+![](https://github.com/kah-ve/TrafficSignGAN/blob/master/finalOutputsPerClass/class_54.png)
 
 ### Class 7
 ![](https://github.com/kah-ve/TrafficSignGAN/blob/master/finalOutputsPerClass/class_7.png)
