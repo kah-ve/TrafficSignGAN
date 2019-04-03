@@ -30,7 +30,7 @@ Hypothesis 2: The GAN will also generate never before seen unique images of the 
 ## Results 
 ### (USING FIRST APPROACH, i.e. training with a DCGAN on one class at a time)
 
-I trained the GAN on the classes I had the most images for as a first step. The top 10 classes (link to data can be found at bottom of readme) are as follows in my dataset.
+I trained the GAN on the classes I had the most images for as a first step. The top 10 classes (link to data can be found at bottom of this page) are as follows in my dataset.
 
 **Class 28: 446 images**
 
