@@ -74,7 +74,7 @@ So we have 4500 Generated Images and 2124 real images. We are testing on 772 ima
 
 ![](https://github.com/kah-ve/TrafficSignGAN/blob/master/miscImages/ModelResults.PNG)
 
-These are the accuracies of the different models [(can be found in the notebook)]((https://github.com/kah-ve/TrafficSignGAN/blob/master/TrafficSign_CNN.ipynb) averaged over 10 runs. We see that the generated images are helping the classifier make better predictions. The difference may not be huge, but it is consistent. 
+These are the accuracies of the different models [(can be found in the notebook)](https://github.com/kah-ve/TrafficSignGAN/blob/master/TrafficSign_CNN.ipynb) averaged over 10 runs. We see that the generated images are helping the classifier make better predictions. The difference may not be huge, but it is consistent. 
 
 Furthermore, another reason these results are better than they might seem is that the testing used have images that are all processed and clean. A sample of the few images: 
 
