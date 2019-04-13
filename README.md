@@ -21,7 +21,7 @@ The second way is to use a Conditional GAN (CGAN) that will be fed images with l
 
 With these outputted images from the GAN, you will train a second classifier on the set of real and generated images, then check its accuracy against the model that was trained on real data.
 
-![Flowchart](https://github.com/kah-ve/TrafficSignGAN/blob/master/project_flowchart.png) 
+![Flowchart](https://github.com/kah-ve/TrafficSignGAN/blob/master/miscImages/project_flowchart.png) 
 
 Hypothesis 1: The GAN will add distortion and noise to outputted images, but the traffic signs will still be clear. This will help the model to generalize better, and even possibly predict signs in bad conditions (weather, blur). 
 
@@ -66,7 +66,24 @@ After training the DCGAN on the separate classes, I took the trained model and o
 ### Class 7
 ![](https://github.com/kah-ve/TrafficSignGAN/blob/master/finalOutputsPerClass/class_7.png)
 
-Currently I have 500 additional images for each class. Next step is to train a model on the real datasets for each class and also the 500 generated ones, then test the model against a classifier only trained on the real dataset.
+## Results
+So we have 4500 Generated Images and 2124 real images. We are testing on 772 images. To do this I used a few different CNN models and got these results:
+
+![](https://github.com/kah-ve/TrafficSignGAN/blob/master/miscImages/ModelResults.PNG)
+
+These are the accuracies of the different models averaged over 10 runs. We see that the generated images are helping the classifier make better predictions. The difference may not be huge, but it is consistent. Furthermore, the testing that was used has images that are all processed and clean. A sample of the few images: 
+
+![](https://github.com/kah-ve/TrafficSignGAN/blob/master/miscImages/SampleTestImages.PNG)
+
+Since these images are already clear, it makes sense that a classifier trained only on the real images is good enough to predict these well. We don't actually need the ability to generalize better, which is what the GAN images supplemented model would help with. 
+
+Lastly, we should note that despite the distortions and warping in the generated images, they don't hurt the classifier from making good predictions. In fact, we have 4500 generated images vs 2124 real images, so the generated images are drowning the real ones in the model. If the generated images were bad, they would've ruined the model. We don't see this happening, and actually see a little of the opposite.
+
+### Disclaimer
+
+I also tried training random CNN models on the two different datasets. I did this by just adding or removing layers, or finding a model used for black and white image classification, but the results on those were volatile, so I stuck with more recognizable models. It is to be ntoed, however, that you can't just run any model on the generated + real images and hope to get better results.
+
+Currently I have 450 additional images for each class. Next step is to train a model on the real datasets for each class and also the 500 generated ones, then test the model against a classifier only trained on the real dataset.
 
 Those results will be available soon.
 
