@@ -3,7 +3,8 @@
 #### Augmenting existing datasets of traffic signs by using a Generative Adversarial Network to create synthetic images that will increase the accuracy and generalization ability of classification models.
 
 ## My Notebook
-### [Traffic Sign GAN Google Colab Notebook](https://github.com/kah-ve/TrafficSignGAN/blob/master/TrafficSign_Conv2DGAN.ipynb) 
+### [Traffic Sign GAN Google Colab Notebook](https://github.com/kah-ve/TrafficSignGAN/blob/master/TrafficSign-Conv2DGAN.ipynb) 
+#### This notebook fulfills the training and image generation aspect of the project. Separate notebook that will compare accuracy rates between models is in the making.
 
 ## Introduction
 This is an (ongoing) extension of my fall semester senior project on Generative Adversarial Networks (GANs). This time I am exploring a problem in current autonomous vehicles where data is expensive to collect and label, and even with large amounts of it, there still exists the risk of misclassification errors. 
@@ -26,19 +27,48 @@ Hypothesis 1: The GAN will add distortion and noise to outputted images, but the
 
 Hypothesis 2: The GAN will also generate never before seen unique images of the traffic sign dataset. This means that through a low cost software model you are able to increase the accuracy of your classification networks on unseen images as well.
 
-## Results
+## Results 
+### (USING FIRST APPROACH, i.e. training with a DCGAN on one class at a time)
 
-Currently have some images output using a DCGAN on the whole training dataset. This network was trained as a proof of concept, and I have no way of controlling the output as of now. 
+I trained the GAN on the classes I had the most images for as a first step. The top 10 classes (link to data can be found at bottom of this page) are as follows in my dataset.
 
-Some Output:
+**Class 28: 446 images**
 
-![Image1](https://github.com/kah-ve/TrafficSignGAN/blob/master/savedImages/364.png) 
+**Class 54: 324 images**
 
-![Image2](https://github.com/kah-ve/TrafficSignGAN/blob/master/savedImages/409.png) 
+**Class 3: 260 images**
 
-![Image3](https://github.com/kah-ve/TrafficSignGAN/blob/master/savedImages/666.png)
+**Class 5: 194 images**
 
-Further results soon.
+**Class 55: 162 images**
+
+**Class 35: 156 images**
+
+**Class 7: 152 images**
+
+**Class 30: 150 images**
+
+**Class 16: 142 images**
+
+**Class 11: 138 images**
+
+After training the DCGAN on the separate classes, I took the trained model and outputted 500 single images each. These were generated from random noise inputted into the generator network. They are not included here, but I have included the final trained models' outputs for a few of the classes (rest in folder finalOutputsPerClass).
+
+### Class 11
+![](https://github.com/kah-ve/TrafficSignGAN/blob/master/finalOutputsPerClass/class_11.png)
+
+### Class 16
+![](https://github.com/kah-ve/TrafficSignGAN/blob/master/finalOutputsPerClass/class_16.png)
+
+### Class 54
+![](https://github.com/kah-ve/TrafficSignGAN/blob/master/finalOutputsPerClass/class_54.png)
+
+### Class 7
+![](https://github.com/kah-ve/TrafficSignGAN/blob/master/finalOutputsPerClass/class_7.png)
+
+Currently I have 500 additional images for each class. Next step is to train a model on the real datasets for each class and also the 500 generated ones, then test the model against a classifier only trained on the real dataset.
+
+Those results will be available soon.
 
 ## Sources: 
 
