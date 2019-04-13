@@ -4,13 +4,13 @@
 
 ## My Notebooks (Using Google Drive and Google Colab)
 ### [Traffic Sign GAN Notebook](https://github.com/kah-ve/TrafficSignGAN/blob/master/TrafficSign-Conv2DGAN.ipynb) 
-#### This notebook fulfills the training and image generation aspect of the project. Separate notebook that will compare accuracy rates between models is in the making.
+<b>This notebook fulfills the training and image generation aspect of the project.</b>
 
 ### [CNN Model Classifier Notebook](https://github.com/kah-ve/TrafficSignGAN/blob/master/TrafficSign_CNN.ipynb) 
-#### This notebook is used to train CNN models (or others if you'd like) on the real images and the real + generated images, then test them to see the difference in prediction accuracy.
+<b>This notebook is used to train CNN models (or others if you'd like) on the real images and the real + generated images, then test them to see the difference in prediction accuracy.</b>
 
 ## Introduction
-This is an (ongoing) extension of my fall semester senior project on Generative Adversarial Networks (GANs). This time I am exploring a problem in current autonomous vehicles where data is expensive to collect and label, and even with large amounts of it, there still exists the risk of misclassification errors. 
+This is an extension of my fall semester senior project on Generative Adversarial Networks (GANs). This time I am exploring a problem in current autonomous vehicles where data is expensive to collect and label, and even with large amounts of it, there still exists the risk of misclassification errors. 
 
 In this project, I attempt to use the generator in the GAN architecture to create synthetic images of already collected and labeled traffic signs. The inspiration for the idea comes from the fact that GANs are capable of generating unique images and understanding the underlying distribution in data, as in the generation of new human faces with [Style GAN](https://arxiv.org/abs/1812.04948), which can be seen at work in this [interactive website](https://thispersondoesnotexist.com/). 
 
@@ -74,13 +74,15 @@ So we have 4500 Generated Images and 2124 real images. We are testing on 772 ima
 
 ![](https://github.com/kah-ve/TrafficSignGAN/blob/master/miscImages/ModelResults.PNG)
 
-These are the accuracies of the different models averaged over 10 runs. We see that the generated images are helping the classifier make better predictions. The difference may not be huge, but it is consistent. Furthermore, the testing that was used has images that are all processed and clean. A sample of the few images: 
+These are the accuracies of the different models [(can be found in the notebook)]((https://github.com/kah-ve/TrafficSignGAN/blob/master/TrafficSign_CNN.ipynb) averaged over 10 runs. We see that the generated images are helping the classifier make better predictions. The difference may not be huge, but it is consistent. 
+
+Furthermore, another reason these results are better than they might seem is that the testing used have images that are all processed and clean. A sample of the few images: 
 
 ![](https://github.com/kah-ve/TrafficSignGAN/blob/master/miscImages/SampleTestImages.PNG)
 
 Since these images are already clear, it makes sense that a classifier trained only on the real images is good enough to predict these well. We don't actually need the ability to generalize better, which is what the GAN images supplemented model would help with. 
 
-Lastly, we should note that despite the distortions and warping in the generated images, they don't hurt the classifier from making good predictions. In fact, we have 4500 generated images vs 2124 real images, so the generated images are drowning the real ones in the model. If the generated images were bad, they would've ruined the model. We don't see this happening, and actually see a little of the opposite.
+Lastly, we should note that despite the distortions and warping in the generated images, they don't hurt the classifier from making good predictions. In fact, we have 4500 generated images vs 2124 real images, so the generated images are drowning the real ones in the model. If the generated images were bad, they would've ruined the model. We don't see this happening, and actually see a little of the opposite. This proves the generated images are helpful.
 
 ### Disclaimer
 
