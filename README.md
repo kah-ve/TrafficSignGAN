@@ -76,7 +76,7 @@ So we have 4500 Generated Images and 2124 real images. We are testing on 772 ima
 
 These are the accuracies of the different models [(can be found in the notebook)](https://github.com/kah-ve/TrafficSignGAN/blob/master/TrafficSign_CNN.ipynb) averaged over 10 runs. We see that the generated images are helping the classifier make better predictions. The difference may not be huge, but it is consistent. 
 
-Furthermore, another reason these results are better than they might seem is that the testing used have images that are all processed and clean. A sample of the few images: 
+Furthermore, another reason these results are better than they might seem is that the testing images are all processed and clean. A sample of the few images: 
 
 ![](https://github.com/kah-ve/TrafficSignGAN/blob/master/miscImages/SampleTestImages.PNG)
 
@@ -86,11 +86,7 @@ Lastly, we should note that despite the distortions and warping in the generated
 
 ### Disclaimer
 
-I also tried training random CNN models on the two different datasets. I did this by just adding or removing layers, or finding a model used for black and white image classification, but the results on those were volatile, so I stuck with more recognizable models. It is to be ntoed, however, that you can't just run any model on the generated + real images and hope to get better results.
-
-Currently I have 450 additional images for each class. Next step is to train a model on the real datasets for each class and also the 500 generated ones, then test the model against a classifier only trained on the real dataset.
-
-Those results will be available soon.
+I also tried training random CNN models on the two different datasets. I did this by just adding or removing layers, or finding a model used for black and white image classification and converted it to color, but the results on those were volatile, so I stuck with more standard models. It is to be noted, however, that you can't just run any model on the generated + real images and hope to get better results.
 
 ## Sources: 
 
