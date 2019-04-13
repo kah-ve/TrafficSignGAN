@@ -30,7 +30,7 @@ Hypothesis 1: The GAN will add distortion and noise to outputted images, but the
 
 Hypothesis 2: The GAN will also generate never before seen unique images of the traffic sign dataset. This means that through a low cost software model you are able to increase the accuracy of your classification networks on unseen images as well.
 
-## Results 
+## Generated Images 
 ### (USING FIRST APPROACH, i.e. training with a DCGAN on one class at a time)
 
 I trained the GAN on the classes I had the most images for as a first step. The top 10 classes (link to data can be found at bottom of this page) are as follows in my dataset.
@@ -69,7 +69,7 @@ After training the DCGAN on the separate classes, I took the trained model and o
 ### Class 7
 ![](https://github.com/kah-ve/TrafficSignGAN/blob/master/finalOutputsPerClass/class_7.png)
 
-## Results
+## Classification Accuracy Changes
 So we have 4500 Generated Images and 2124 real images. We are testing on 772 images. To do this I used a few different CNN models and got these results:
 
 ![](https://github.com/kah-ve/TrafficSignGAN/blob/master/miscImages/ModelResults.PNG)
