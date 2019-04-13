@@ -88,6 +88,12 @@ Lastly, we should note that despite the distortions and warping in the generated
 
 I also tried training random CNN models on the two different datasets. I did this by just adding or removing layers, or finding a model used for black and white image classification and converted it to color, but the results on those were volatile, so I stuck with more standard models. It is to be noted, however, that you can't just run any model on the generated + real images and hope to get better results.
 
+## Conclusion
+
+* **Able to generate images and label them quickly** 
+* **Able to increase classification accuracy**
+* **Hence, an effective and efficient form of data augmentation.**
+
 ## Sources: 
 
 [Chinese Traffic Sign Recognition Database](http://www.nlpr.ia.ac.cn/pal/trafficdata/recognition.html) (Note:  I preprocessed these images to be 32x32 pixels)
